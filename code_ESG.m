@@ -101,7 +101,7 @@ Rho_ESG = [0.942848979591837 0.9542];    % same values as before
 alpha2_ESG = zeros(length(Rho_ESG),1);
 gamma2_ESG = zeros(length(Rho_ESG),1);
 eps2_ESG = zeros(length(Rho_ESG),1);
-abs_err_new_50_ESG = zeros(size(Prices,1),length(Rho_ESG));   % su ogni colonna ho tt tempi
+abs_err_new_50_ESG = zeros(size(Prices,1),length(Rho_ESG)); 
 rel_err_new_50_ESG = zeros(size(Prices,1),length(Rho_ESG));
 
 % Case rho = 0.9428
